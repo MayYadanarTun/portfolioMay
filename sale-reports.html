@@ -121,37 +121,42 @@
                   <b>User Authentication:</b> Implement a secure login system to ensure that only authorized users can
                   access the data.
                 </li>
-                <li> <b>Dashboard:</b> The homepage of the website can feature a dashboard summarizing key sales
-                  metrics, such as total revenue, units sold,and recent sales trends.
+                <li>
+                  <b>User Hierarchy and Permissions:</b> Implement a hierarchical user structure with different levels,
+                  such as salespersons, supervisors, country managers, and regional managers.
+                  Assign appropriate permissions to each level, ensuring that higher-level users can access data from
+                  lower levels.
                 <li>
 
-                  <b>Report Generation:</b>
-                  Salepersons can be able to generate custom reports based on various parameters, such as date range,
-                  product category, or geographical region.
+                  <b>Dashboard Overview and Commenting Feature:</b>
+                  Provide each user with a personalized dashboard that displays relevant information based on their role
+                  and responsibilities.
+                  Regional managers should have access to an overview dashboard that consolidates data from all the
+                  regions under their supervision.
                 </li>
 
                 <li>
-                  <b>Export and Sharing:</b>
-                  Give users the ability to export reports in different formats (e.g., PDF, CSV) and share them with
-                  colleagues or stakeholders.
+                  <b>Real-time Updates:</b>
+                  Configure the system to trigger real-time updates on higher-level dashboards when a salesperson
+                  submits new data. This ensures that regional managers, country managers, and supervisors receive
+                  immediate notifications of recent sales activities.
                 </li>
                 <li>
                   <b>
-                    Role-Based Access Control:
+                    Monthly Reporting:
                   </b>
-                  Implement role-based access control to provide different levels of access to users (e.g.,
-                  admin,Regional Manager,
-                  Country Manager,
-                  Supervisor
-                  ,Salesperson).
+                  Set up a monthly reporting system where salespersons can submit comprehensive reports at the end of
+                  each month.
+                  Notifications should be sent to supervisors once a salesperson submits their monthly report, and
+                  supervisors should have access to a consolidated view of their team's monthly performance.
                 </li>
 
                 <li>
                   <b>
-                    Search Functionality:
+                    Secure Access Controls:
                   </b>
-                  Allow users to search for specific transactions, products, or customers within the data.
-
+                  Implement robust access controls to ensure that users can only view data relevant to their role. This
+                  helps maintain data security and confidentiality.
                 </li>
                 <li>
                   <b>
@@ -187,15 +192,9 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+
             <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
             </div>
           </div>
         </div>
